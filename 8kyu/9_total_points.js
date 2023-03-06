@@ -25,14 +25,15 @@
 //     0 <= y <= 4
 
 function points(games) {
-  // First attempt solution. Simple and straight forward
   let points = 0;
   games.forEach((e) => {
-    if (e[0] > e[2]) {
-      points += 3;
-    } else if (e[0] == e[2]) {
-      points += 1;
-    }
+    // First attempt solution. Simple and straight forward
+    //   if (e[0] > e[2]) {
+    //     points += 3;
+    //   } else if (e[0] == e[2]) {
+    //     points += 1;
+    //   }
+    points += e[0] > e[2] ? 3 : e[0] == e[2] ? 1 : 0;
   });
   return points;
 }
