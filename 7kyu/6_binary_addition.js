@@ -26,6 +26,7 @@ function binaryAddition(num1, num2) {
   // }
   // return binary.join("");
   // Solution from codewars
+  // For testing purposes
   return (num1 + num2).toString(2);
 }
 
