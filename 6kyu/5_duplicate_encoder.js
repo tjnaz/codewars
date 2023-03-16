@@ -39,4 +39,15 @@ function duplicateEncoder(str2) {
   return encoded.join("");
 }
 
+// AN AWESOME SOLUTION FROM CODEWARS
+// function duplicateEncode(word){
+//   return word
+//     .toLowerCase()
+//     .split('')
+//     .map( function (a, i, w) {
+//       return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')'
+//     })
+//     .join('');
+// }
+
 console.log(duplicateEncoder("(( @"));
