@@ -32,7 +32,6 @@
 function buildATower(floor) {
   let stars = 2 * floor - 1;
   let tower = [];
-  // console.log(stars);
 
   for (let i = 1; i <= stars; i += 2) {
     let char = "";
