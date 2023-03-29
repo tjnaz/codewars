@@ -16,7 +16,10 @@
 
 function findTheSmallestInt(arr) {
   // return arr.sort((a, b) => a - b)[0];
-  return Math.min(...arr);
+  return Math.min(...arr); // possibly the most elegant solution
+  // return arr.reduce((prev, curr) => {
+  //   return prev < curr ? prev : curr;
+  // });
 }
 
 console.log(findTheSmallestInt([1, 0, 5]));
