@@ -15,7 +15,8 @@
 // You can assume, for the purpose of this kata, that the supplied array will not be empty.
 
 function findTheSmallestInt(arr) {
-  return arr.sort((a, b) => a - b)[0];
+  // return arr.sort((a, b) => a - b)[0];
+  return Math.min(...arr);
 }
 
 console.log(findTheSmallestInt([1, 0, 5]));
