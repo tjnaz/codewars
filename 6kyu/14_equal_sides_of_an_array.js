@@ -38,13 +38,6 @@ function isEqualSides(arr) {
   for (let i = 0; i < arr.length; i++) {
     let left = arr.slice(0, i);
     let right = arr.slice(i + 1, arr.length);
-    console.log(`l: ${left}`);
-    console.log(`r: ${right}`);
-
-    console.log(`index: ${i}`);
-
-    console.log(`l-sum: ${left.reduce((sum, num) => (sum += num), 0)}`);
-    console.log(`r-sum: ${right.reduce((sum, num) => (sum += num), 0)}`);
 
     if (
       left.reduce((sum, num) => (sum += num), 0) ==
