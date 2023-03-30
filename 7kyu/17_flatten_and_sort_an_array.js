@@ -20,11 +20,12 @@
 // http://stackoverflow.com/questions/6093874/why-doesnt-the-sort-function-of-javascript-work-well
 
 function flattenAndSortArray(arr) {
-  let flat = [];
-  arr.forEach((e) => e.forEach((i) => flat.push(i)));
-  return flat.sort((a, b) => a - b);
+  // let flat = [];
+  // arr.forEach((e) => e.forEach((i) => flat.push(i)));
+  // return flat.sort((a, b) => a - b);
+  return arr.flat().sort((a, b) => a - b);
 }
 
-let arr = [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]];
+let arr = [[3, 10, 11, 2, 1], [4, 6, 5], [], [9, 7, 8]];
 
 console.log(flattenAndSortArray(arr));
