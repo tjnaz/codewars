@@ -1,4 +1,4 @@
-<img src="https://www.codewars.com/users/AnazThaj/badges/large" alt="Codewars Stats Badge">
+<img src="https://www.codewars.com/users/tjnaz/badges/large" alt="Codewars Stats Badge">
 
 # Codewars Kata Solutions 🥋
 
