@@ -21,7 +21,6 @@
 // Happy coding!
 
 function mergeArrays(arr1, arr2) {
-  let merged = [];
   arr1.forEach((e) => (!arr2.includes(e) ? arr2.push(e) : null));
   return arr2.sort((a, b) => a - b);
 }
