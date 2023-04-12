@@ -70,6 +70,7 @@ function findLandPerimeter(arr) {
             row--;
           }
         }
+        console.log(`round: ${i}, row: ${row}`);
         perimeter += row;
       }
     }
