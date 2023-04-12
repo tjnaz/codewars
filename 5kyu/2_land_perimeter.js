@@ -23,18 +23,14 @@
 
 function findLandPerimeter(arr) {
   let perimeter = 0;
-  // let count = 0;
+
   for (let i = 0; i < arr.length; i++) {
-    // console.log(arr.length);
     for (let j = 0; j < arr[i].length; j++) {
-      // console.log(arr[i].length);
       if (arr[i][j] == "X") {
-        // count++;
-        // console.log(count);
         let row = 4;
+
         if (i == 0) {
           if (arr[i + 1][j] == "X") {
-            // console.log("i=0");
             row--;
           }
         }
@@ -81,14 +77,18 @@ function findLandPerimeter(arr) {
   return perimeter;
 }
 
-// ['XOOXO', 'XOOXO', 'OOOXO', 'XXOXO', 'OXOOO']
-
+// ['XOOXO',
+//  'XOOXO',
+//  'OOOXO',
+//  'XXOXO',
+//  'OXOOO']
 // should return: "Total land perimeter: 24".
 
-// Following input:
-
-// ['XOOO', 'XOXO', 'XOXO', 'OOXX', 'OOOO']
-
+// ['XOOO',
+//  'XOXO',
+//  'XOXO',
+//  'OOXX',
+//  'OOOO']
 // should return: "Total land perimeter: 18"
 
 const arr = ["XOOXO", "XOOXO", "OOOXO", "XXOXO", "OXOOO"];
