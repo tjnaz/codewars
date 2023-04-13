@@ -1,6 +1,23 @@
 // -- ************ --- //
 // --- [2023-04-02] --- //
 // --- ************ --- //
+// TODO: optimisation
+// NOTE: all the test cases are passed but there seems to be some "TypeError"
+// NOTE: refer below for the complete error report
+// TypeError: Cannot read property '0' of undefined
+//     at landPerimeter
+//     at it
+//     at begin
+//     at it
+//     at /home/codewarrior/index.js:116:3
+//     at /runner/frameworks/javascript/cw-2.js:152:11
+//     at Promise._execute
+//     at Promise._resolveFromExecutor
+//     at new Promise
+//     at describe
+//     at /home/codewarrior/index.js:115:5
+//     at /home/codewarrior/index.js:161:5
+//     at Object.handleError/
 
 // Land perimeter
 // Description:
